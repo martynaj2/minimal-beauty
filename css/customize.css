@@ -1,24 +1,68 @@
 @import url('https://fonts.googleapis.com/css?family=Sacramento');
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Rock+Salt');
 
 body {
 	background-color: #fffcff;
 	font-size: 18px;
-	width: 100%;
+	width: 99%;
 	margin: 0 auto;
-	margin-top: 2%;
+	margin-top: 0.2%;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
 }
 
 div#header {
-	font-size: 28px;
-	font-family: "Sacramento";
+	font-size: 14px;
+	font-family: "Rock Salt";
 	color: pink;
-	width: 100%;
+	width: 90%;
+	text-align: left;
 	
 }
 
 div#header > h1#title {
-	width: 20%;
+	width: 30%;
 	margin: 0 auto;
-	margin-left: 2%;
+	float: left;
+	/*margin-left: 0.5%;*/
+	font-weight: 100;
 	
 }
+
+ul {
+
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	padding-top: 20px;
+
+
+}
+
+li {
+	float: left;
+}
+
+li#diff {
+	padding-right: 10px; 
+	padding-left: 400px;
+}
+
+li a {
+	display: inline;
+/*	background-color: pink;*/
+	padding-right: 5px;
+	padding-left: 30px;
+	font-size: 20px;
+	text-decoration: none;
+	font-family: "Poiret One";
+
+}
+
+li a:hover {
+	color: darkblue;
+}
+
+
