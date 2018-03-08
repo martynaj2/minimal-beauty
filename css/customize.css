@@ -32,7 +32,8 @@ div#header > h1#title {
 
 ul {
 
-	width: 100%;
+	display: inline-block;
+	width: 70%;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -52,8 +53,7 @@ li#diff {
 
 li a {
 	display: inline;
-/*	background-color: pink;*/
-	padding-right: 5px;
+	padding-right: 4px;
 	padding-left: 30px;
 	font-size: 20px;
 	text-decoration: none;
@@ -63,6 +63,49 @@ li a {
 
 li a:hover {
 	color: darkblue;
+	 /* border-bottom: 1px dotted #10425E;
+     -webkit-transition:border-bottom .5s;
+     -moz-transition:border-bottom .5s;
+     -ms-transition:border-bottom .5s;
+     -o-transition:border-bottom .5s;
+     transition:border-bottom .5s;*/
+
+}
+
+/*li a:link {
+
+	 -webkit-transition:border-bottom .5s;
+     -moz-transition:border-bottom .5s;
+     -ms-transition:border-bottom .5s;
+     -o-transition:border-bottom .5s;
+     transition:border-bottom .5s;
+}
+*/
+
+li .link::after {
+	content:'';
+    display: inline-block;
+    width: 0;
+    height: 2px;
+    background: pink;
+    transition: width .3s;
+}
+
+li .link:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+.gallery {
+	
+	flex-wrap: wrap;
+/*	width:80%;*/
+/*	margin: 0 auto;*/
+	margin: 0 auto;
+	float: center;
+	margin-top: 10%;
+	margin-left: 10%;
+	padding: 0 4px;
 }
 
 
