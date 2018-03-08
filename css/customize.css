@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Rock+Salt');
 @import url('https://fonts.googleapis.com/css?family=Poiret+One|Rock+Salt');
 @import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Handlee|Nothing+You+Could+Do|Shadows+Into+Light+Two');
+
 body {
 	background-color: #fffcff;
 	font-size: 18px;
@@ -32,16 +33,13 @@ h1#title {
 }
 
 
-
 ul {
-
 	font-family: "Poiret One";
 	font-weight: 500;
 	list-style: none;
-	float: right;
-
-	
+	float: right;	
 }
+
 
 li {
  	display: inline-block;
@@ -49,12 +47,12 @@ li {
  	padding: 0;
 }
 
+
 li a {
 	display: block;
 	color: black;
 	padding: 0px 30px 0px 30px;
   	text-decoration: none;
-  
 }
 
 
@@ -72,23 +70,8 @@ li a:hover::after {
     transition: width .3s;
 }
 
-/*
-.gallery {
-	
-	flex-wrap: wrap;
-	width:80%;
-	margin: 0 auto;
-	margin: 0 auto;
-	float: center;
-	margin-top: 10%;
-	margin-left: 10%;
-	padding: 0 40px;
-}*/
-
-
 
 .gallery {
-	
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
@@ -98,10 +81,9 @@ li a:hover::after {
     -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
     margin-bottom: 2%;
-   
 }
 
-/* Create four equal columns that sits next to each other */
+
 .column {
 	margin: 0 auto;
     -ms-flex: 32%; /* IE10 */
@@ -115,7 +97,7 @@ li a:hover::after {
     vertical-align: middle;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
+
 @media (max-width: 800px) {
     .column {
         -ms-flex: 50%;
@@ -124,7 +106,7 @@ li a:hover::after {
     }
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
 @media (max-width: 600px) {
     .column {
         -ms-flex: 100%;
