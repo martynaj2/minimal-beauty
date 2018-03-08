@@ -15,17 +15,19 @@ div#navbar {
 	width: 100%;
 	height: 60px;
 	margin-top: 10px;
+	margin-bottom: 50px;
 }
 
 h1#title {
 	font-size: 30px;
 	font-family: "Nothing You Could Do";
-	color: pink;
+	color: #b8374a82;
 	text-align: left;
 	width: 30%;
 	margin: 0 auto;
 	float: left;
 	font-weight: 800;
+	margin-left: 30px;
 	padding-top: 10px;
 }
 
@@ -60,8 +62,8 @@ li a::after {
 	content: '';
     display: block;
     width: 0;
-    height: 2px;
-    background: #000;
+    height: 1px;
+    background: #b8374a82;
     transition: width .3s;
 }
 
@@ -88,17 +90,20 @@ li a:hover::after {
 .gallery {
 	
 	width: 90%;
-	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
 	float: center;
     display: -ms-flexbox; /* IE10 */
     display: flex;
     -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
+    margin-bottom: 2%;
    
 }
 
 /* Create four equal columns that sits next to each other */
 .column {
+	margin: 0 auto;
     -ms-flex: 32%; /* IE10 */
     flex: 32%;
     max-width: 32%;
@@ -106,7 +111,7 @@ li a:hover::after {
 }
 
 .column img {
-    margin-top: 50px;
+    margin-bottom: 20px;
     vertical-align: middle;
 }
 
