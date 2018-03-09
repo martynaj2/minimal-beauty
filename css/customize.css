@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Sacramento');
-@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
-@import url('https://fonts.googleapis.com/css?family=Poiret+One|Rock+Salt');
-@import url('https://fonts.googleapis.com/css?family=Architects+Daughter|Handlee|Nothing+You+Could+Do|Shadows+Into+Light+Two');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One|Karla|Nothing+You+Could+Do|Quicksand');
+
 
 body {
 	background-color: #fffcff;
@@ -19,6 +17,20 @@ div#navbar {
 	margin-bottom: 50px;
 }
 
+div#icons {
+	
+	display: inline;
+	margin: 0 auto;
+/*	padding-right: 10px;*/
+	
+}
+
+div#icons img {
+	padding-right: 10px;
+}
+
+
+
 h1#title {
 	font-size: 30px;
 	font-family: "Nothing You Could Do";
@@ -34,7 +46,9 @@ h1#title {
 
 
 ul {
-	font-family: "Poiret One";
+	/*font-family: "Poiret One";*/
+/*	font-family: "Karla";*/
+	font-family: "Quicksand";
 	font-weight: 500;
 	list-style: none;
 	float: right;	
@@ -95,8 +109,22 @@ li a:hover::after {
 .column img {
     margin-bottom: 20px;
     vertical-align: middle;
+    transition: transform .2s ease-in-out;
+  /*  the nbhd vibes below*/
+    -webkit-filter: grayscale(60%);
+	filter: grayscale(60%);
+	-webkit-transition: .3s ease;
+	transition: .3s ease;
 }
 
+.column img:hover {
+	-webkit-transform: scale(0.95);
+	-ms-transform: scale(0.95);
+	transform: scale(0.95);
+	/*the nbhd vibes below*/
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
 
 @media (max-width: 800px) {
     .column {
