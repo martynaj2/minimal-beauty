@@ -10,33 +10,34 @@ body {
 	margin-right: 0.5%;
 }
 
-div#navbar {
-	width: 100%;
+#navbar {
 	height: 60px;
 	margin-top: 10px;
-	margin-bottom: 50px;
+	margin-bottom: 90px;
+    width: 100%;
 }
 
-div#icons {
-	
+#icons {
 	display: inline;
 	margin: 0 auto;
-/*	padding-right: 10px;*/
-	
 }
 
-div#icons img {
+#icons img {
 	padding-right: 10px;
 }
 
 
+#ins:hover, #lin:hover {
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
 
 h1#title {
-	font-size: 30px;
+	font-size: 4.0vmin;
 	font-family: "Nothing You Could Do";
 	color: #b8374a82;
 	text-align: left;
-	width: 30%;
+	width: 5vmin;
 	margin: 0 auto;
 	float: left;
 	font-weight: 800;
@@ -46,12 +47,11 @@ h1#title {
 
 
 ul {
-	/*font-family: "Poiret One";*/
-/*	font-family: "Karla";*/
+    width: 805min;
 	font-family: "Quicksand";
-	font-weight: 500;
 	list-style: none;
-	float: right;	
+	float: right;
+    font-size: 2.3vmin;
 }
 
 
@@ -110,11 +110,12 @@ li a:hover::after {
     margin-bottom: 20px;
     vertical-align: middle;
     transition: transform .2s ease-in-out;
-  /*  the nbhd vibes below*/
     -webkit-filter: grayscale(60%);
 	filter: grayscale(60%);
 	-webkit-transition: .3s ease;
 	transition: .3s ease;
+    box-shadow: 1px 1px 18px 0px #482b4694;
+    
 }
 
 .column img:hover {

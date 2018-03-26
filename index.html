@@ -1,12 +1,17 @@
-<!DOCTYPE html7>
+<!DOCTYPE html>
 <html>
 	<head>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
 		<title>Minimal Beauty</title>
 		<link href="css/customize.css" type="text/css" rel="stylesheet"/>
-		<meta charset="utf-8">
+		<meta name="viewport" charset="utf-8">
 	</head>
 
 	<body>
+
+		<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+		
 
 		<div id="navbar">
 			<h1 id="title">Minimal Beauty</h1>
@@ -16,8 +21,8 @@
 					<li><a class="link" href="http://google.pl">BLOG</a></li>
 					<li><a class="link" href="http://google.pl">SHOP</a></li>
 					<div id="icons">
-						<a href="https://www.instagram.com/maaartinej/"><img src="images/instagram.png"></a>
-						<a href="https://www.linkedin.com/in/martyna-jasiak-58462b146"><img src="images/linkedin.png"></a>
+						<a id="ins" href="https://www.instagram.com/maaartinej/"><img src="images/instagram.jpg" width="20vw" height="20vw"></a>
+						<a id="lin" href="https://www.linkedin.com/in/martyna-jasiak-58462b146" ><img src="images/linkedin.jpg" width="20vw" height="20vw"></a>
 					</div>
 				</ul>		
 			
@@ -25,7 +30,7 @@
 
 	 	<div class="gallery">
 			<div class="column">
-				<img src="images/1.jpg" alt="pink flowers" width=100%>
+				<a href="images/1.jpg" data-fancybox="images"><img src="images/1.jpg" alt="pink flowers" width=100%></a>
 				<img src="images/6.jpg" alt="pink flowers" width=100%>
 				<img src="images/8.jpg" alt="pink flowers" width=100%>
 				<img src="images/7.jpg" alt="pink flowers" width=100%>
@@ -47,9 +52,6 @@
 				<img src="images/6.jpg" alt="pink flowers" width=100%>
 			</div>
 		</div> 
-
-
-
 			
 	</body>
 
